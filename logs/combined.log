@@ -3,3 +3,122 @@
 2026-08-07 18:49:06 [INFO] Server running on port 5000
 2026-08-07 18:49:06 [INFO] Environment: development
 2026-08-07 18:53:29 [INFO] Database connection established successfully.
+2026-08-12 13:45:57 [ERROR] Unable to start server: getaddrinfo ENOTFOUND ep-purple-leaf-axfm631o-pooler.c-4.us-east-2.aws.neon.tech {"name":"SequelizeHostNotFoundError","parent":{"errno":-3008,"code":"ENOTFOUND","syscall":"getaddrinfo","hostname":"ep-purple-leaf-axfm631o-pooler.c-4.us-east-2.aws.neon.tech"},"original":{"errno":-3008,"code":"ENOTFOUND","syscall":"getaddrinfo","hostname":"ep-purple-leaf-axfm631o-pooler.c-4.us-east-2.aws.neon.tech"}}
+SequelizeHostNotFoundError: getaddrinfo ENOTFOUND ep-purple-leaf-axfm631o-pooler.c-4.us-east-2.aws.neon.tech
+    at Client._connectionCallback (C:\Users\Sakshi\OneDrive\Desktop\ERP_application\backend\node_modules\sequelize\lib\dialects\postgres\connection-manager.js:136:24)
+    at Client._handleErrorWhileConnecting (C:\Users\Sakshi\OneDrive\Desktop\ERP_application\backend\node_modules\pg\lib\client.js:403:19)
+    at Client._handleErrorEvent (C:\Users\Sakshi\OneDrive\Desktop\ERP_application\backend\node_modules\pg\lib\client.js:413:19)
+    at Connection.emit (node:events:508:28)
+    at Socket.reportStreamError (C:\Users\Sakshi\OneDrive\Desktop\ERP_application\backend\node_modules\pg\lib\connection.js:58:12)
+    at Socket.emit (node:events:508:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:89:21)
+2026-08-12 13:46:34 [ERROR] Unable to start server: getaddrinfo ENOTFOUND ep-purple-leaf-axfm631o-pooler.c-4.us-east-2.aws.neon.tech {"name":"SequelizeHostNotFoundError","parent":{"errno":-3008,"code":"ENOTFOUND","syscall":"getaddrinfo","hostname":"ep-purple-leaf-axfm631o-pooler.c-4.us-east-2.aws.neon.tech"},"original":{"errno":-3008,"code":"ENOTFOUND","syscall":"getaddrinfo","hostname":"ep-purple-leaf-axfm631o-pooler.c-4.us-east-2.aws.neon.tech"}}
+SequelizeHostNotFoundError: getaddrinfo ENOTFOUND ep-purple-leaf-axfm631o-pooler.c-4.us-east-2.aws.neon.tech
+    at Client._connectionCallback (C:\Users\Sakshi\OneDrive\Desktop\ERP_application\backend\node_modules\sequelize\lib\dialects\postgres\connection-manager.js:136:24)
+    at Client._handleErrorWhileConnecting (C:\Users\Sakshi\OneDrive\Desktop\ERP_application\backend\node_modules\pg\lib\client.js:403:19)
+    at Client._handleErrorEvent (C:\Users\Sakshi\OneDrive\Desktop\ERP_application\backend\node_modules\pg\lib\client.js:413:19)
+    at Connection.emit (node:events:508:28)
+    at Socket.reportStreamError (C:\Users\Sakshi\OneDrive\Desktop\ERP_application\backend\node_modules\pg\lib\connection.js:58:12)
+    at Socket.emit (node:events:508:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:89:21)
+2026-08-12 13:49:50 [INFO] Database connection established successfully.
+2026-08-12 13:51:34 [ERROR] Unable to start server: getaddrinfo ENOTFOUND ep-purple-leaf-axfm631o-pooler.c-4.us-east-2.aws.neon.tech {"name":"SequelizeHostNotFoundError","parent":{"errno":-3008,"code":"ENOTFOUND","syscall":"getaddrinfo","hostname":"ep-purple-leaf-axfm631o-pooler.c-4.us-east-2.aws.neon.tech"},"original":{"errno":-3008,"code":"ENOTFOUND","syscall":"getaddrinfo","hostname":"ep-purple-leaf-axfm631o-pooler.c-4.us-east-2.aws.neon.tech"}}
+SequelizeHostNotFoundError: getaddrinfo ENOTFOUND ep-purple-leaf-axfm631o-pooler.c-4.us-east-2.aws.neon.tech
+    at Client._connectionCallback (C:\Users\Sakshi\OneDrive\Desktop\ERP_application\backend\node_modules\sequelize\lib\dialects\postgres\connection-manager.js:136:24)
+    at Client._handleErrorWhileConnecting (C:\Users\Sakshi\OneDrive\Desktop\ERP_application\backend\node_modules\pg\lib\client.js:403:19)
+    at Client._handleErrorEvent (C:\Users\Sakshi\OneDrive\Desktop\ERP_application\backend\node_modules\pg\lib\client.js:413:19)
+    at Connection.emit (node:events:508:28)
+    at Socket.reportStreamError (C:\Users\Sakshi\OneDrive\Desktop\ERP_application\backend\node_modules\pg\lib\connection.js:58:12)
+    at Socket.emit (node:events:508:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:89:21)
+2026-08-12 13:55:31 [ERROR] Unable to start server: getaddrinfo ENOTFOUND ep-purple-leaf-axfm631o-pooler.c-4.us-east-2.aws.neon.tech {"name":"SequelizeHostNotFoundError","parent":{"errno":-3008,"code":"ENOTFOUND","syscall":"getaddrinfo","hostname":"ep-purple-leaf-axfm631o-pooler.c-4.us-east-2.aws.neon.tech"},"original":{"errno":-3008,"code":"ENOTFOUND","syscall":"getaddrinfo","hostname":"ep-purple-leaf-axfm631o-pooler.c-4.us-east-2.aws.neon.tech"}}
+SequelizeHostNotFoundError: getaddrinfo ENOTFOUND ep-purple-leaf-axfm631o-pooler.c-4.us-east-2.aws.neon.tech
+    at Client._connectionCallback (C:\Users\Sakshi\OneDrive\Desktop\ERP_application\backend\node_modules\sequelize\lib\dialects\postgres\connection-manager.js:136:24)
+    at Client._handleErrorWhileConnecting (C:\Users\Sakshi\OneDrive\Desktop\ERP_application\backend\node_modules\pg\lib\client.js:403:19)
+    at Client._handleErrorEvent (C:\Users\Sakshi\OneDrive\Desktop\ERP_application\backend\node_modules\pg\lib\client.js:413:19)
+    at Connection.emit (node:events:508:28)
+    at Socket.reportStreamError (C:\Users\Sakshi\OneDrive\Desktop\ERP_application\backend\node_modules\pg\lib\connection.js:58:12)
+    at Socket.emit (node:events:508:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:89:21)
+2026-08-12 14:04:52 [ERROR] Unable to start server: getaddrinfo ENOTFOUND ep-purple-leaf-axfm631o-pooler.c-4.us-east-2.aws.neon.tech {"name":"SequelizeHostNotFoundError","parent":{"errno":-3008,"code":"ENOTFOUND","syscall":"getaddrinfo","hostname":"ep-purple-leaf-axfm631o-pooler.c-4.us-east-2.aws.neon.tech"},"original":{"errno":-3008,"code":"ENOTFOUND","syscall":"getaddrinfo","hostname":"ep-purple-leaf-axfm631o-pooler.c-4.us-east-2.aws.neon.tech"}}
+SequelizeHostNotFoundError: getaddrinfo ENOTFOUND ep-purple-leaf-axfm631o-pooler.c-4.us-east-2.aws.neon.tech
+    at Client._connectionCallback (C:\Users\Sakshi\OneDrive\Desktop\ERP_application\backend\node_modules\sequelize\lib\dialects\postgres\connection-manager.js:136:24)
+    at Client._handleErrorWhileConnecting (C:\Users\Sakshi\OneDrive\Desktop\ERP_application\backend\node_modules\pg\lib\client.js:403:19)
+    at Client._handleErrorEvent (C:\Users\Sakshi\OneDrive\Desktop\ERP_application\backend\node_modules\pg\lib\client.js:413:19)
+    at Connection.emit (node:events:508:28)
+    at Socket.reportStreamError (C:\Users\Sakshi\OneDrive\Desktop\ERP_application\backend\node_modules\pg\lib\connection.js:58:12)
+    at Socket.emit (node:events:508:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:89:21)
+2026-08-12 14:05:47 [ERROR] Unable to start server: getaddrinfo ENOTFOUND ep-purple-leaf-axfm631o-pooler.c-4.us-east-2.aws.neon.tech {"name":"SequelizeHostNotFoundError","parent":{"errno":-3008,"code":"ENOTFOUND","syscall":"getaddrinfo","hostname":"ep-purple-leaf-axfm631o-pooler.c-4.us-east-2.aws.neon.tech"},"original":{"errno":-3008,"code":"ENOTFOUND","syscall":"getaddrinfo","hostname":"ep-purple-leaf-axfm631o-pooler.c-4.us-east-2.aws.neon.tech"}}
+SequelizeHostNotFoundError: getaddrinfo ENOTFOUND ep-purple-leaf-axfm631o-pooler.c-4.us-east-2.aws.neon.tech
+    at Client._connectionCallback (C:\Users\Sakshi\OneDrive\Desktop\ERP_application\backend\node_modules\sequelize\lib\dialects\postgres\connection-manager.js:136:24)
+    at Client._handleErrorWhileConnecting (C:\Users\Sakshi\OneDrive\Desktop\ERP_application\backend\node_modules\pg\lib\client.js:403:19)
+    at Client._handleErrorEvent (C:\Users\Sakshi\OneDrive\Desktop\ERP_application\backend\node_modules\pg\lib\client.js:413:19)
+    at Connection.emit (node:events:508:28)
+    at Socket.reportStreamError (C:\Users\Sakshi\OneDrive\Desktop\ERP_application\backend\node_modules\pg\lib\connection.js:58:12)
+    at Socket.emit (node:events:508:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:89:21)
+2026-08-12 14:08:06 [ERROR] Unable to start server: getaddrinfo ENOTFOUND ep-spring-cherry-ay2fxjdj-pooler.c-5.us-east-2.aws.neon.tech {"name":"SequelizeHostNotFoundError","parent":{"errno":-3008,"code":"ENOTFOUND","syscall":"getaddrinfo","hostname":"ep-spring-cherry-ay2fxjdj-pooler.c-5.us-east-2.aws.neon.tech"},"original":{"errno":-3008,"code":"ENOTFOUND","syscall":"getaddrinfo","hostname":"ep-spring-cherry-ay2fxjdj-pooler.c-5.us-east-2.aws.neon.tech"}}
+SequelizeHostNotFoundError: getaddrinfo ENOTFOUND ep-spring-cherry-ay2fxjdj-pooler.c-5.us-east-2.aws.neon.tech
+    at Client._connectionCallback (C:\Users\Sakshi\OneDrive\Desktop\ERP_application\backend\node_modules\sequelize\lib\dialects\postgres\connection-manager.js:136:24)
+    at Client._handleErrorWhileConnecting (C:\Users\Sakshi\OneDrive\Desktop\ERP_application\backend\node_modules\pg\lib\client.js:403:19)
+    at Client._handleErrorEvent (C:\Users\Sakshi\OneDrive\Desktop\ERP_application\backend\node_modules\pg\lib\client.js:413:19)
+    at Connection.emit (node:events:508:28)
+    at Socket.reportStreamError (C:\Users\Sakshi\OneDrive\Desktop\ERP_application\backend\node_modules\pg\lib\connection.js:58:12)
+    at Socket.emit (node:events:508:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:89:21)
+2026-08-12 14:10:26 [ERROR] Unable to start server: getaddrinfo ENOTFOUND ep-spring-cherry-ay2fxjdj.c-5.us-east-2.aws.neon.tech {"name":"SequelizeHostNotFoundError","parent":{"errno":-3008,"code":"ENOTFOUND","syscall":"getaddrinfo","hostname":"ep-spring-cherry-ay2fxjdj.c-5.us-east-2.aws.neon.tech"},"original":{"errno":-3008,"code":"ENOTFOUND","syscall":"getaddrinfo","hostname":"ep-spring-cherry-ay2fxjdj.c-5.us-east-2.aws.neon.tech"}}
+SequelizeHostNotFoundError: getaddrinfo ENOTFOUND ep-spring-cherry-ay2fxjdj.c-5.us-east-2.aws.neon.tech
+    at Client._connectionCallback (C:\Users\Sakshi\OneDrive\Desktop\ERP_application\backend\node_modules\sequelize\lib\dialects\postgres\connection-manager.js:136:24)
+    at Client._handleErrorWhileConnecting (C:\Users\Sakshi\OneDrive\Desktop\ERP_application\backend\node_modules\pg\lib\client.js:403:19)
+    at Client._handleErrorEvent (C:\Users\Sakshi\OneDrive\Desktop\ERP_application\backend\node_modules\pg\lib\client.js:413:19)
+    at Connection.emit (node:events:508:28)
+    at Socket.reportStreamError (C:\Users\Sakshi\OneDrive\Desktop\ERP_application\backend\node_modules\pg\lib\connection.js:58:12)
+    at Socket.emit (node:events:508:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:89:21)
+2026-08-12 14:18:36 [ERROR] Unable to start server: getaddrinfo ENOTFOUND ep-spring-cherry-ay2fxjdj-pooler.c-5.us-east-2.aws.neon.tech {"name":"SequelizeHostNotFoundError","parent":{"errno":-3008,"code":"ENOTFOUND","syscall":"getaddrinfo","hostname":"ep-spring-cherry-ay2fxjdj-pooler.c-5.us-east-2.aws.neon.tech"},"original":{"errno":-3008,"code":"ENOTFOUND","syscall":"getaddrinfo","hostname":"ep-spring-cherry-ay2fxjdj-pooler.c-5.us-east-2.aws.neon.tech"}}
+SequelizeHostNotFoundError: getaddrinfo ENOTFOUND ep-spring-cherry-ay2fxjdj-pooler.c-5.us-east-2.aws.neon.tech
+    at Client._connectionCallback (C:\Users\Sakshi\OneDrive\Desktop\ERP_application\backend\node_modules\sequelize\lib\dialects\postgres\connection-manager.js:136:24)
+    at Client._handleErrorWhileConnecting (C:\Users\Sakshi\OneDrive\Desktop\ERP_application\backend\node_modules\pg\lib\client.js:403:19)
+    at Client._handleErrorEvent (C:\Users\Sakshi\OneDrive\Desktop\ERP_application\backend\node_modules\pg\lib\client.js:413:19)
+    at Connection.emit (node:events:508:28)
+    at Socket.reportStreamError (C:\Users\Sakshi\OneDrive\Desktop\ERP_application\backend\node_modules\pg\lib\connection.js:58:12)
+    at Socket.emit (node:events:508:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:89:21)
+2026-08-12 15:22:56 [ERROR] Unable to start server: getaddrinfo ENOTFOUND ep-spring-cherry-ay2fxjdj-pooler.c-5.us-east-2.aws.neon.tech {"name":"SequelizeHostNotFoundError","parent":{"errno":-3008,"code":"ENOTFOUND","syscall":"getaddrinfo","hostname":"ep-spring-cherry-ay2fxjdj-pooler.c-5.us-east-2.aws.neon.tech"},"original":{"errno":-3008,"code":"ENOTFOUND","syscall":"getaddrinfo","hostname":"ep-spring-cherry-ay2fxjdj-pooler.c-5.us-east-2.aws.neon.tech"}}
+SequelizeHostNotFoundError: getaddrinfo ENOTFOUND ep-spring-cherry-ay2fxjdj-pooler.c-5.us-east-2.aws.neon.tech
+    at Client._connectionCallback (C:\Users\Sakshi\OneDrive\Desktop\ERP_application\backend\node_modules\sequelize\lib\dialects\postgres\connection-manager.js:136:24)
+    at Client._handleErrorWhileConnecting (C:\Users\Sakshi\OneDrive\Desktop\ERP_application\backend\node_modules\pg\lib\client.js:403:19)
+    at Client._handleErrorEvent (C:\Users\Sakshi\OneDrive\Desktop\ERP_application\backend\node_modules\pg\lib\client.js:413:19)
+    at Connection.emit (node:events:508:28)
+    at Socket.reportStreamError (C:\Users\Sakshi\OneDrive\Desktop\ERP_application\backend\node_modules\pg\lib\connection.js:58:12)
+    at Socket.emit (node:events:508:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:89:21)
+2026-08-13 22:12:51 [INFO] Database connection established successfully.
+2026-08-13 22:15:18 [INFO] Database synced successfully.
+2026-08-13 22:15:18 [INFO] Server running on port 5000
+2026-08-13 22:15:18 [INFO] Environment: development
+2026-08-13 22:54:04 [INFO] ::1 - - [13/Aug/2026:17:24:04 +0000] "POST /api/auth/login HTTP/1.1" 401 100 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36"
+2026-08-13 22:55:38 [INFO] ::1 - - [13/Aug/2026:17:25:38 +0000] "POST /api/auth/login HTTP/1.1" 401 100 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36"
+2026-08-13 22:56:34 [INFO] Database connection established successfully.
+2026-08-13 23:00:57 [INFO] Database connection established successfully.
