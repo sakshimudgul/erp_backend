@@ -108,3 +108,192 @@ SequelizeHostNotFoundError: getaddrinfo ENOTFOUND ep-spring-cherry-ay2fxjdj-pool
     at emitErrorNT (node:internal/streams/destroy:170:8)
     at emitErrorCloseNT (node:internal/streams/destroy:129:3)
     at process.processTicksAndRejections (node:internal/process/task_queues:89:21)
+2026-08-14 12:54:10 [ERROR] Registration error: value too long for type character varying(255) {"name":"SequelizeDatabaseError","parent":{"length":99,"name":"error","severity":"ERROR","code":"22001","file":"varchar.c","line":"637","routine":"varchar","sql":"UPDATE \"Users\" SET \"refreshToken\"=$1,\"updatedAt\"=$2 WHERE \"id\" = $3","parameters":["eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjhkZTVhYWM5LWQ4ZmYtNGY1Yi04N2Q3LTlhMzYwZWQxODBhZiIsImVtYWlsIjoic2Frc2hpbXVkZ3VsODY1MkBnbWFpbC5jb20iLCJyb2xlIjoic3R1ZGVudCIsImlhdCI6MTc4NjY5MjI1MCwiZXhwIjoxNzg5Mjg0MjUwfQ.eay4QUMPiQO2ifD47BvJsyulvnyWH1srZ-36VCCb_QA","2026-08-14 07:24:10.692 +00:00","8de5aac9-d8ff-4f5b-87d7-9a360ed180af"]},"original":{"length":99,"name":"error","severity":"ERROR","code":"22001","file":"varchar.c","line":"637","routine":"varchar","sql":"UPDATE \"Users\" SET \"refreshToken\"=$1,\"updatedAt\"=$2 WHERE \"id\" = $3","parameters":["eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjhkZTVhYWM5LWQ4ZmYtNGY1Yi04N2Q3LTlhMzYwZWQxODBhZiIsImVtYWlsIjoic2Frc2hpbXVkZ3VsODY1MkBnbWFpbC5jb20iLCJyb2xlIjoic3R1ZGVudCIsImlhdCI6MTc4NjY5MjI1MCwiZXhwIjoxNzg5Mjg0MjUwfQ.eay4QUMPiQO2ifD47BvJsyulvnyWH1srZ-36VCCb_QA","2026-08-14 07:24:10.692 +00:00","8de5aac9-d8ff-4f5b-87d7-9a360ed180af"]},"sql":"UPDATE \"Users\" SET \"refreshToken\"=$1,\"updatedAt\"=$2 WHERE \"id\" = $3","parameters":["eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjhkZTVhYWM5LWQ4ZmYtNGY1Yi04N2Q3LTlhMzYwZWQxODBhZiIsImVtYWlsIjoic2Frc2hpbXVkZ3VsODY1MkBnbWFpbC5jb20iLCJyb2xlIjoic3R1ZGVudCIsImlhdCI6MTc4NjY5MjI1MCwiZXhwIjoxNzg5Mjg0MjUwfQ.eay4QUMPiQO2ifD47BvJsyulvnyWH1srZ-36VCCb_QA","2026-08-14 07:24:10.692 +00:00","8de5aac9-d8ff-4f5b-87d7-9a360ed180af"]}
+Error
+    at Query.run (C:\Users\Sakshi\OneDrive\Desktop\ERP_application\backend\node_modules\sequelize\lib\dialects\postgres\query.js:50:25)
+    at C:\Users\Sakshi\OneDrive\Desktop\ERP_application\backend\node_modules\sequelize\lib\sequelize.js:315:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async PostgresQueryInterface.update (C:\Users\Sakshi\OneDrive\Desktop\ERP_application\backend\node_modules\sequelize\lib\dialects\abstract\query-interface.js:355:12)
+    at async model.save (C:\Users\Sakshi\OneDrive\Desktop\ERP_application\backend\node_modules\sequelize\lib\model.js:2490:35)
+    at async model.update (C:\Users\Sakshi\OneDrive\Desktop\ERP_application\backend\node_modules\sequelize\lib\model.js:2598:12)
+    at async register (C:\Users\Sakshi\OneDrive\Desktop\ERP_application\backend\src\controllers\authController.js:36:7)
+2026-08-14 13:06:31 [ERROR] Unexpected non-whitespace character after JSON at position 186 (line 8 column 4) {"path":"/api/auth/register","method":"POST","ip":"::1"}
+SyntaxError: Unexpected non-whitespace character after JSON at position 186 (line 8 column 4)
+    at JSON.parse (<anonymous>)
+    at parse (C:\Users\Sakshi\OneDrive\Desktop\ERP_application\backend\node_modules\body-parser\lib\types\json.js:91:21)
+    at C:\Users\Sakshi\OneDrive\Desktop\ERP_application\backend\node_modules\body-parser\lib\read.js:162:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:214:14)
+    at invokeCallback (C:\Users\Sakshi\OneDrive\Desktop\ERP_application\backend\node_modules\raw-body\index.js:238:16)
+    at done (C:\Users\Sakshi\OneDrive\Desktop\ERP_application\backend\node_modules\raw-body\index.js:227:7)
+    at IncomingMessage.onEnd (C:\Users\Sakshi\OneDrive\Desktop\ERP_application\backend\node_modules\raw-body\index.js:287:7)
+    at IncomingMessage.emit (node:events:508:28)
+    at endReadableNT (node:internal/streams/readable:1701:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:89:21)
+2026-08-14 13:11:12 [ERROR] Unexpected non-whitespace character after JSON at position 186 (line 8 column 4) {"path":"/api/auth/register","method":"POST","ip":"::1"}
+SyntaxError: Unexpected non-whitespace character after JSON at position 186 (line 8 column 4)
+    at JSON.parse (<anonymous>)
+    at parse (C:\Users\Sakshi\OneDrive\Desktop\ERP_application\backend\node_modules\body-parser\lib\types\json.js:91:21)
+    at C:\Users\Sakshi\OneDrive\Desktop\ERP_application\backend\node_modules\body-parser\lib\read.js:162:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:214:14)
+    at invokeCallback (C:\Users\Sakshi\OneDrive\Desktop\ERP_application\backend\node_modules\raw-body\index.js:238:16)
+    at done (C:\Users\Sakshi\OneDrive\Desktop\ERP_application\backend\node_modules\raw-body\index.js:227:7)
+    at IncomingMessage.onEnd (C:\Users\Sakshi\OneDrive\Desktop\ERP_application\backend\node_modules\raw-body\index.js:287:7)
+    at IncomingMessage.emit (node:events:508:28)
+    at endReadableNT (node:internal/streams/readable:1701:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:89:21)
+2026-08-15 18:00:33 [ERROR] Email sending failed: nodemailer.createTransporter is not a function
+TypeError: nodemailer.createTransporter is not a function
+    at createTransporter (C:\Users\Sakshi\OneDrive\Desktop\ERP_application\backend\src\config\email.js:8:30)
+    at sendEmail (C:\Users\Sakshi\OneDrive\Desktop\ERP_application\backend\src\config\email.js:26:25)
+    at register (C:\Users\Sakshi\OneDrive\Desktop\ERP_application\backend\src\controllers\authController.js:40:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+2026-08-15 18:00:33 [ERROR] Welcome email failed: nodemailer.createTransporter is not a function
+TypeError: nodemailer.createTransporter is not a function
+    at createTransporter (C:\Users\Sakshi\OneDrive\Desktop\ERP_application\backend\src\config\email.js:8:30)
+    at sendEmail (C:\Users\Sakshi\OneDrive\Desktop\ERP_application\backend\src\config\email.js:26:25)
+    at register (C:\Users\Sakshi\OneDrive\Desktop\ERP_application\backend\src\controllers\authController.js:40:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+2026-08-15 18:07:36 [ERROR] Get my subjects error: Course is not defined
+ReferenceError: Course is not defined
+    at getMySubjects (C:\Users\Sakshi\OneDrive\Desktop\ERP_application\backend\src\controllers\faculty\teachingController.js:20:24)
+    at Layer.handleRequest (C:\Users\Sakshi\OneDrive\Desktop\ERP_application\backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\Sakshi\OneDrive\Desktop\ERP_application\backend\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (C:\Users\Sakshi\OneDrive\Desktop\ERP_application\backend\node_modules\router\lib\route.js:117:3)
+    at handle (C:\Users\Sakshi\OneDrive\Desktop\ERP_application\backend\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (C:\Users\Sakshi\OneDrive\Desktop\ERP_application\backend\node_modules\router\lib\layer.js:152:17)
+    at C:\Users\Sakshi\OneDrive\Desktop\ERP_application\backend\node_modules\router\index.js:295:15
+    at processParams (C:\Users\Sakshi\OneDrive\Desktop\ERP_application\backend\node_modules\router\index.js:582:12)
+    at next (C:\Users\Sakshi\OneDrive\Desktop\ERP_application\backend\node_modules\router\index.js:291:5)
+    at router.handle (C:\Users\Sakshi\OneDrive\Desktop\ERP_application\backend\node_modules\router\index.js:186:3)
+2026-08-15 18:07:36 [ERROR] Get my subjects error: Course is not defined
+ReferenceError: Course is not defined
+    at getMySubjects (C:\Users\Sakshi\OneDrive\Desktop\ERP_application\backend\src\controllers\faculty\teachingController.js:20:24)
+    at Layer.handleRequest (C:\Users\Sakshi\OneDrive\Desktop\ERP_application\backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\Sakshi\OneDrive\Desktop\ERP_application\backend\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (C:\Users\Sakshi\OneDrive\Desktop\ERP_application\backend\node_modules\router\lib\route.js:117:3)
+    at handle (C:\Users\Sakshi\OneDrive\Desktop\ERP_application\backend\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (C:\Users\Sakshi\OneDrive\Desktop\ERP_application\backend\node_modules\router\lib\layer.js:152:17)
+    at C:\Users\Sakshi\OneDrive\Desktop\ERP_application\backend\node_modules\router\index.js:295:15
+    at processParams (C:\Users\Sakshi\OneDrive\Desktop\ERP_application\backend\node_modules\router\index.js:582:12)
+    at next (C:\Users\Sakshi\OneDrive\Desktop\ERP_application\backend\node_modules\router\index.js:291:5)
+    at router.handle (C:\Users\Sakshi\OneDrive\Desktop\ERP_application\backend\node_modules\router\index.js:186:3)
+2026-08-15 18:10:06 [ERROR] Get my subjects error: Course is not defined
+ReferenceError: Course is not defined
+    at getMySubjects (C:\Users\Sakshi\OneDrive\Desktop\ERP_application\backend\src\controllers\faculty\teachingController.js:20:24)
+    at Layer.handleRequest (C:\Users\Sakshi\OneDrive\Desktop\ERP_application\backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\Sakshi\OneDrive\Desktop\ERP_application\backend\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (C:\Users\Sakshi\OneDrive\Desktop\ERP_application\backend\node_modules\router\lib\route.js:117:3)
+    at handle (C:\Users\Sakshi\OneDrive\Desktop\ERP_application\backend\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (C:\Users\Sakshi\OneDrive\Desktop\ERP_application\backend\node_modules\router\lib\layer.js:152:17)
+    at C:\Users\Sakshi\OneDrive\Desktop\ERP_application\backend\node_modules\router\index.js:295:15
+    at processParams (C:\Users\Sakshi\OneDrive\Desktop\ERP_application\backend\node_modules\router\index.js:582:12)
+    at next (C:\Users\Sakshi\OneDrive\Desktop\ERP_application\backend\node_modules\router\index.js:291:5)
+    at router.handle (C:\Users\Sakshi\OneDrive\Desktop\ERP_application\backend\node_modules\router\index.js:186:3)
+2026-08-15 18:10:06 [ERROR] Get my subjects error: Course is not defined
+ReferenceError: Course is not defined
+    at getMySubjects (C:\Users\Sakshi\OneDrive\Desktop\ERP_application\backend\src\controllers\faculty\teachingController.js:20:24)
+    at Layer.handleRequest (C:\Users\Sakshi\OneDrive\Desktop\ERP_application\backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\Sakshi\OneDrive\Desktop\ERP_application\backend\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (C:\Users\Sakshi\OneDrive\Desktop\ERP_application\backend\node_modules\router\lib\route.js:117:3)
+    at handle (C:\Users\Sakshi\OneDrive\Desktop\ERP_application\backend\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (C:\Users\Sakshi\OneDrive\Desktop\ERP_application\backend\node_modules\router\lib\layer.js:152:17)
+    at C:\Users\Sakshi\OneDrive\Desktop\ERP_application\backend\node_modules\router\index.js:295:15
+    at processParams (C:\Users\Sakshi\OneDrive\Desktop\ERP_application\backend\node_modules\router\index.js:582:12)
+    at next (C:\Users\Sakshi\OneDrive\Desktop\ERP_application\backend\node_modules\router\index.js:291:5)
+    at router.handle (C:\Users\Sakshi\OneDrive\Desktop\ERP_application\backend\node_modules\router\index.js:186:3)
+2026-08-15 18:10:18 [ERROR] Get my subjects error: Course is not defined
+ReferenceError: Course is not defined
+    at getMySubjects (C:\Users\Sakshi\OneDrive\Desktop\ERP_application\backend\src\controllers\faculty\teachingController.js:20:24)
+    at Layer.handleRequest (C:\Users\Sakshi\OneDrive\Desktop\ERP_application\backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\Sakshi\OneDrive\Desktop\ERP_application\backend\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (C:\Users\Sakshi\OneDrive\Desktop\ERP_application\backend\node_modules\router\lib\route.js:117:3)
+    at handle (C:\Users\Sakshi\OneDrive\Desktop\ERP_application\backend\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (C:\Users\Sakshi\OneDrive\Desktop\ERP_application\backend\node_modules\router\lib\layer.js:152:17)
+    at C:\Users\Sakshi\OneDrive\Desktop\ERP_application\backend\node_modules\router\index.js:295:15
+    at processParams (C:\Users\Sakshi\OneDrive\Desktop\ERP_application\backend\node_modules\router\index.js:582:12)
+    at next (C:\Users\Sakshi\OneDrive\Desktop\ERP_application\backend\node_modules\router\index.js:291:5)
+    at router.handle (C:\Users\Sakshi\OneDrive\Desktop\ERP_application\backend\node_modules\router\index.js:186:3)
+2026-08-15 18:10:18 [ERROR] Get my subjects error: Course is not defined
+ReferenceError: Course is not defined
+    at getMySubjects (C:\Users\Sakshi\OneDrive\Desktop\ERP_application\backend\src\controllers\faculty\teachingController.js:20:24)
+    at Layer.handleRequest (C:\Users\Sakshi\OneDrive\Desktop\ERP_application\backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\Sakshi\OneDrive\Desktop\ERP_application\backend\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (C:\Users\Sakshi\OneDrive\Desktop\ERP_application\backend\node_modules\router\lib\route.js:117:3)
+    at handle (C:\Users\Sakshi\OneDrive\Desktop\ERP_application\backend\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (C:\Users\Sakshi\OneDrive\Desktop\ERP_application\backend\node_modules\router\lib\layer.js:152:17)
+    at C:\Users\Sakshi\OneDrive\Desktop\ERP_application\backend\node_modules\router\index.js:295:15
+    at processParams (C:\Users\Sakshi\OneDrive\Desktop\ERP_application\backend\node_modules\router\index.js:582:12)
+    at next (C:\Users\Sakshi\OneDrive\Desktop\ERP_application\backend\node_modules\router\index.js:291:5)
+    at router.handle (C:\Users\Sakshi\OneDrive\Desktop\ERP_application\backend\node_modules\router\index.js:186:3)
+2026-08-15 18:10:25 [ERROR] Get my subjects error: Course is not defined
+ReferenceError: Course is not defined
+    at getMySubjects (C:\Users\Sakshi\OneDrive\Desktop\ERP_application\backend\src\controllers\faculty\teachingController.js:20:24)
+    at Layer.handleRequest (C:\Users\Sakshi\OneDrive\Desktop\ERP_application\backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\Sakshi\OneDrive\Desktop\ERP_application\backend\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (C:\Users\Sakshi\OneDrive\Desktop\ERP_application\backend\node_modules\router\lib\route.js:117:3)
+    at handle (C:\Users\Sakshi\OneDrive\Desktop\ERP_application\backend\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (C:\Users\Sakshi\OneDrive\Desktop\ERP_application\backend\node_modules\router\lib\layer.js:152:17)
+    at C:\Users\Sakshi\OneDrive\Desktop\ERP_application\backend\node_modules\router\index.js:295:15
+    at processParams (C:\Users\Sakshi\OneDrive\Desktop\ERP_application\backend\node_modules\router\index.js:582:12)
+    at next (C:\Users\Sakshi\OneDrive\Desktop\ERP_application\backend\node_modules\router\index.js:291:5)
+    at router.handle (C:\Users\Sakshi\OneDrive\Desktop\ERP_application\backend\node_modules\router\index.js:186:3)
+2026-08-15 18:10:25 [ERROR] Get my subjects error: Course is not defined
+ReferenceError: Course is not defined
+    at getMySubjects (C:\Users\Sakshi\OneDrive\Desktop\ERP_application\backend\src\controllers\faculty\teachingController.js:20:24)
+    at Layer.handleRequest (C:\Users\Sakshi\OneDrive\Desktop\ERP_application\backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\Sakshi\OneDrive\Desktop\ERP_application\backend\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (C:\Users\Sakshi\OneDrive\Desktop\ERP_application\backend\node_modules\router\lib\route.js:117:3)
+    at handle (C:\Users\Sakshi\OneDrive\Desktop\ERP_application\backend\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (C:\Users\Sakshi\OneDrive\Desktop\ERP_application\backend\node_modules\router\lib\layer.js:152:17)
+    at C:\Users\Sakshi\OneDrive\Desktop\ERP_application\backend\node_modules\router\index.js:295:15
+    at processParams (C:\Users\Sakshi\OneDrive\Desktop\ERP_application\backend\node_modules\router\index.js:582:12)
+    at next (C:\Users\Sakshi\OneDrive\Desktop\ERP_application\backend\node_modules\router\index.js:291:5)
+    at router.handle (C:\Users\Sakshi\OneDrive\Desktop\ERP_application\backend\node_modules\router\index.js:186:3)
+2026-08-15 18:11:52 [ERROR] Get my subjects error: Course is not defined
+ReferenceError: Course is not defined
+    at getMySubjects (C:\Users\Sakshi\OneDrive\Desktop\ERP_application\backend\src\controllers\faculty\teachingController.js:20:24)
+    at Layer.handleRequest (C:\Users\Sakshi\OneDrive\Desktop\ERP_application\backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\Sakshi\OneDrive\Desktop\ERP_application\backend\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (C:\Users\Sakshi\OneDrive\Desktop\ERP_application\backend\node_modules\router\lib\route.js:117:3)
+    at handle (C:\Users\Sakshi\OneDrive\Desktop\ERP_application\backend\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (C:\Users\Sakshi\OneDrive\Desktop\ERP_application\backend\node_modules\router\lib\layer.js:152:17)
+    at C:\Users\Sakshi\OneDrive\Desktop\ERP_application\backend\node_modules\router\index.js:295:15
+    at processParams (C:\Users\Sakshi\OneDrive\Desktop\ERP_application\backend\node_modules\router\index.js:582:12)
+    at next (C:\Users\Sakshi\OneDrive\Desktop\ERP_application\backend\node_modules\router\index.js:291:5)
+    at router.handle (C:\Users\Sakshi\OneDrive\Desktop\ERP_application\backend\node_modules\router\index.js:186:3)
+2026-08-15 18:11:52 [ERROR] Get my subjects error: Course is not defined
+ReferenceError: Course is not defined
+    at getMySubjects (C:\Users\Sakshi\OneDrive\Desktop\ERP_application\backend\src\controllers\faculty\teachingController.js:20:24)
+    at Layer.handleRequest (C:\Users\Sakshi\OneDrive\Desktop\ERP_application\backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\Sakshi\OneDrive\Desktop\ERP_application\backend\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (C:\Users\Sakshi\OneDrive\Desktop\ERP_application\backend\node_modules\router\lib\route.js:117:3)
+    at handle (C:\Users\Sakshi\OneDrive\Desktop\ERP_application\backend\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (C:\Users\Sakshi\OneDrive\Desktop\ERP_application\backend\node_modules\router\lib\layer.js:152:17)
+    at C:\Users\Sakshi\OneDrive\Desktop\ERP_application\backend\node_modules\router\index.js:295:15
+    at processParams (C:\Users\Sakshi\OneDrive\Desktop\ERP_application\backend\node_modules\router\index.js:582:12)
+    at next (C:\Users\Sakshi\OneDrive\Desktop\ERP_application\backend\node_modules\router\index.js:291:5)
+    at router.handle (C:\Users\Sakshi\OneDrive\Desktop\ERP_application\backend\node_modules\router\index.js:186:3)
+2026-08-15 18:15:17 [ERROR] Get my subjects error: Course is not defined
+ReferenceError: Course is not defined
+    at getMySubjects (C:\Users\Sakshi\OneDrive\Desktop\ERP_application\backend\src\controllers\faculty\teachingController.js:20:24)
+    at Layer.handleRequest (C:\Users\Sakshi\OneDrive\Desktop\ERP_application\backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\Sakshi\OneDrive\Desktop\ERP_application\backend\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (C:\Users\Sakshi\OneDrive\Desktop\ERP_application\backend\node_modules\router\lib\route.js:117:3)
+    at handle (C:\Users\Sakshi\OneDrive\Desktop\ERP_application\backend\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (C:\Users\Sakshi\OneDrive\Desktop\ERP_application\backend\node_modules\router\lib\layer.js:152:17)
+    at C:\Users\Sakshi\OneDrive\Desktop\ERP_application\backend\node_modules\router\index.js:295:15
+    at processParams (C:\Users\Sakshi\OneDrive\Desktop\ERP_application\backend\node_modules\router\index.js:582:12)
+    at next (C:\Users\Sakshi\OneDrive\Desktop\ERP_application\backend\node_modules\router\index.js:291:5)
+    at router.handle (C:\Users\Sakshi\OneDrive\Desktop\ERP_application\backend\node_modules\router\index.js:186:3)
+2026-08-15 18:15:17 [ERROR] Get my subjects error: Course is not defined
+ReferenceError: Course is not defined
+    at getMySubjects (C:\Users\Sakshi\OneDrive\Desktop\ERP_application\backend\src\controllers\faculty\teachingController.js:20:24)
+    at Layer.handleRequest (C:\Users\Sakshi\OneDrive\Desktop\ERP_application\backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\Sakshi\OneDrive\Desktop\ERP_application\backend\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (C:\Users\Sakshi\OneDrive\Desktop\ERP_application\backend\node_modules\router\lib\route.js:117:3)
+    at handle (C:\Users\Sakshi\OneDrive\Desktop\ERP_application\backend\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (C:\Users\Sakshi\OneDrive\Desktop\ERP_application\backend\node_modules\router\lib\layer.js:152:17)
+    at C:\Users\Sakshi\OneDrive\Desktop\ERP_application\backend\node_modules\router\index.js:295:15
+    at processParams (C:\Users\Sakshi\OneDrive\Desktop\ERP_application\backend\node_modules\router\index.js:582:12)
+    at next (C:\Users\Sakshi\OneDrive\Desktop\ERP_application\backend\node_modules\router\index.js:291:5)
+    at router.handle (C:\Users\Sakshi\OneDrive\Desktop\ERP_application\backend\node_modules\router\index.js:186:3)

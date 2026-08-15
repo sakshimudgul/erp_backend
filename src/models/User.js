@@ -22,7 +22,8 @@ const User = sequelize.define('User', {
   },
   role: {
     type: DataTypes.ENUM('super_admin', 'principal', 'hod', 'faculty', 'student', 'parent', 'receptionist'),
-    allowNull: false
+    allowNull: false,
+    defaultValue: 'student'
   },
   firstName: {
     type: DataTypes.STRING,
@@ -53,7 +54,7 @@ const User = sequelize.define('User', {
     allowNull: true
   },
   refreshToken: {
-    type: DataTypes.STRING,
+    type: DataTypes.TEXT,  // Changed from STRING to TEXT
     allowNull: true
   },
   passwordResetToken: {
